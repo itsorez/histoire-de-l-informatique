@@ -1,0 +1,137 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000A91;
+  height: 120px;
+}
+header {
+  position: sticky; /* Fixer le header en haut de la fenêtre */
+  top: 0; /* Distance du haut de la fenêtre */
+  width: 100%; /* Largeur du header */
+  background-color: #333; /* Couleur de fond du header */
+  padding: 10px 0; /* Espacement intérieur du header */
+  z-index: 1000; /* Assurer que le header est au-dessus de tout le reste */
+}
+
+#titre {
+  text-align: center; 
+  margin: 0 auto; 
+  font-size: 2em;
+  color: grey;
+  font-family: 'Calibri' , sans-serif;
+}
+
+#logos {
+  display: flex; 
+  align-items: center; 
+}
+
+#logos img {
+  width: 35px;
+  margin-right: 10px; 
+}
+
+#premierpage section, #premierpage p {
+  text-align: center;
+}
+
+#premierpage p:last-child {
+  font-style: italic; 
+  font-family: 'Georgia', serif; 
+}
+
+#premierpage h3 {
+	font-size: 1.5em;
+	font-family: Arial Narrow, sans-serif;
+}
+
+#deuxiemepage {
+	text-align: center;
+}
+
+#deuxiemepage p:last-child {
+  font-style: italic;
+  font-family: 'Georgia', serif;
+}
+
+
+#deuxiemepage h3 {
+	font-size: 1.5em;
+	font-family: Arial Narrow, sans-serif;
+}
+
+#troisiemepage {
+	text-align: center;
+}
+
+#troisiemepage p:last-child {
+  font-style: italic;
+  font-family: 'Georgia', serif;
+}
+
+
+#troisiemepage h3 {
+	font-size: 1.5em;
+	font-family: Arial Narrow, sans-serif;
+}
+
+#sousparties {
+  text-align: center;
+}
+
+#sousparties h2:first-child{
+  font-size: 24px; 
+  font-family: Courier New, monospace;
+}
+
+#sousparties a {
+  display: block; 
+}
+
+#sousparties h3 {
+  font-size: 20px; 
+  font-family: 'Georgia', serif; 
+}
+
+#premierpage a, #deuxiemepage a, #troisiemepage a, #sousparties a {
+  display: block;
+  width: auto; 
+  text-decoration: none; 
+  padding: 10px 20px; 
+  background-color: black; 
+  color: white;
+  border-radius: 5px; 
+  margin: 0 auto; 
+  margin-bottom: 10px;
+  text-transform: uppercase; 
+  transition: background-color 0.3s;
+  max-width: 200px; 
+}
+
+#premierpage a:hover, #deuxiemepage a:hover, #troisiemepage a:hover, #sousparties a:hover {
+  background-color: #333;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+  background-color: #333;
+}
+#page {
+  color: white;
+}
+
+footer #boutons a {
+	background-color: grey;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+
+footer #boutons a:hover {
+	background-color: black;
+}
